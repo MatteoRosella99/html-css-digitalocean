@@ -2,11 +2,51 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Rubik', sans-serif; 
 }
 div{
   height: 100px;
-  background-color: blue;
+}
+.navig{
+  height: 80px;
 }
 body{
   padding-top: 100px;
+}
+#logo{
+  height: 40px;
+  margin-right: 50px;
+}
+nav > .container > ul > li{
+  display: inline-block;
+  padding: 0 10px;
+}
+nav > .container > ul > li > a{
+  color: black;
+}
+nav > .container > ul > li > a:hover{
+  color: #0049ff;
+  text-decoration: none;
+}
+nav > .container > ul{
+  display: inline-block;
+  padding-top: 25px;
+}
+#right{
+  float: right;
+}
+#left{
+  float: left;
+}
+#signup{
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: #0049ff solid 1px;
+  background-color: rgba(255, 0, 0, 0.0);
+  color: #0049ff;
+}
+#signup:hover{
+  color: white;
+  background-color: #0049ff;
+      transition: background-color .25s linear,border-color .25s linear,color .25s linear;
 }
