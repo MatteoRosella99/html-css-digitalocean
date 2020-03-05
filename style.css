@@ -49,14 +49,23 @@ nav > .container > ul{
   padding: 10px 0;
 }
 .customers{
-  background-color: grey;
+  background-color: #e8e8e8;
   margin-top: 0;
-  padding-top: 30px;
+  padding-top: 50px;
   text-align: center;
 }
 .customers > h3{
   margin-top: 0;
   font-size: 20px;
+  color: #757575;
+}
+.customers > div > div > img{
+  width: 140px;
+  height: 87px;
+  padding-top: 15px;
+}
+.customers > p{
+  padding: 30px;
 }
 .navbar{
   margin-bottom: 30px;
