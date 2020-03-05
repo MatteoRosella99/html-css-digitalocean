@@ -49,7 +49,7 @@ nav > .container > ul{
   padding: 10px 0;
 }
 .customers{
-  background-color: #e8e8e8;
+  background-color: #f2f2f2;
   margin-top: 0;
   padding-top: 50px;
   text-align: center;
@@ -67,8 +67,85 @@ nav > .container > ul{
 .customers > p{
   padding: 30px;
 }
+.deploy{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.deploy > h2{
+  font-size: 40px;
+}
+.deploy > p{
+  font-size: 20px;
+  color: #757575;
+}
+.deployimg{
+  padding-bottom: 50px;
+}
+.designed > h2{
+  font-size: 34px;
+}
+.designed > p{
+  font-size: 21px;
+  padding-top: 15px;
+}
+.features{
+  padding-bottom: 50px;
+}
+.features > h2{
+  margin-top: 0;
+  padding-top: 70px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.features > div > div > img{
+  height: 36px;
+}
+.features > div > div > h3{
+  font-size: 19px;
+}
+
+.minisezioni > div > ul{
+  margin-left: 100px;
+  list-style-type: none;
+  border-left: solid #d6d6d6 2px;
+  padding-left: 12px;
+}
+.minisezioni > div > ul > li{
+  font-size: 20px;
+  padding-bottom: 18px;
+  color: #757575;
+}
 .navbar{
   margin-bottom: 30px;
+}
+.oceano{
+  background-color: #0049ff;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.oceano > h2{
+  text-align: center;
+  color: white;
+  padding-bottom: 15px;
+}
+.oceano > div > div > ul{
+  list-style-type: none;
+  border-bottom: white solid 1px;
+  color: white;
+}
+.oceano > div > div > ul > li{
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.city{
+  padding-left: 40px;
+}
+.speedtest{
+  float: right;
+}
+.speedtest > a{
+  color: #30e0ff;
 }
 .titolo > h1{
   font-size: 55px;
@@ -126,6 +203,9 @@ nav > .container > ul{
   height: 25px;
   float: left;
   padding-left: 10px;
+}
+#lastone{
+  border-bottom: none;
 }
 #left{
   float: left;
