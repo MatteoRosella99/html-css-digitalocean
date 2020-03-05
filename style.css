@@ -1,18 +1,15 @@
+/* FOGLIO DI STILE CSS - ORDINATO
+ALFABETICAMENTE PER TAGS - CLASSI - ID */
+
+/* TAGS */
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Rubik', sans-serif;
 }
-div{
-  height: 100px;
-}
 body{
-  padding-top: 100px;
-}
-#logo{
-  height: 40px;
-  margin-right: 50px;
+  padding-top: 80px;
 }
 nav > .container > ul > li{
   display: inline-block;
@@ -30,30 +27,106 @@ nav > .container > ul{
   display: inline-block;
   padding-top: 28px;
 }
+
+/* CLASSI */
+.backbianco{
+  background-color: white;
+  text-align: center;
+  margin-top: 22px;
+  border-radius: 10px;
+}
+.backbianco > h2{
+  font-size: 36px;
+  padding-top: 14px;
+}
+.backbianco > h3{
+  color: #0049ff;
+  font-size: 30px;
+  margin-top: 5px;
+}
+.backbianco > p{
+  font-size: 14px;
+  padding: 10px 0;
+}
+.customers{
+  background-color: grey;
+  margin-top: 0;
+  padding-top: 30px;
+  text-align: center;
+}
+.customers > h3{
+  margin-top: 0;
+  font-size: 20px;
+}
 .navbar{
   margin-bottom: 30px;
 }
 .titolo > h1{
-  font-size: 48px;
+  font-size: 55px;
   color: white;
+  padding-top: 20px;
 }
 .titolo > p{
-  font-size: 28px;
+  font-size: 22px;
   color: #bebfc2;
 }
 .jumbotron{
   background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
   background-size: cover;
-  height: 700px;
+  padding-bottom: 100px;
+  margin-bottom: 0;
 }
-.backbianco{
+.form-group{
+  margin-bottom: 0;
+}
+.form-control{
+  padding: auto 30px;
+}
+/* ID */
+#create{
+  margin-top: 15px;
+  padding: 7px 0;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: #0049ff solid 1px;
+  background-color: #0049ff;
+  color: white;
+}
+#create:hover{
   background-color: white;
+  color: #0049ff;
+  transition: background-color .25s linear,border-color .25s linear,color .25s linear;
 }
-#right{
-  float: right;
+#google{
+  margin-top: 15px;
+  padding: 7px 0;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  color: black;
+}
+#google:hover{
+  color: white;
+  background-color: black;
+  transition: background-color .25s linear,border-color .25s linear,color .25s linear;
+}
+#googleicon{
+  height: 25px;
+  float: left;
+  padding-left: 10px;
 }
 #left{
   float: left;
+}
+#logo{
+  height: 40px;
+  margin-right: 50px;
+}
+#right{
+  float: right;
 }
 #signup{
   padding: 10px 12px 6px 12px;
@@ -62,7 +135,7 @@ nav > .container > ul{
   background-color: rgba(255, 0, 0, 0.0);
   color: #0049ff;
 }
-#signup:hover{
+#signup:hover {
   color: white;
   background-color: #0049ff;
   transition: background-color .25s linear,border-color .25s linear,color .25s linear;
