@@ -14,6 +14,11 @@ body{
 footer{
   background-color: #010e28;
 }
+header > nav > div > a{
+  font-size: 30px;
+  float: right;
+  padding-top: 30px;
+}
 nav > .container > ul > li{
   display: inline-block;
   padding: 0 10px;
@@ -314,5 +319,19 @@ nav > .container > ul{
   }
   .oceano > div > div{
     padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 1199px){
+
+  #right{
+    display: none;
+  }
+  .none{
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px){
+  header > nav > div > a{
+    display: none;
   }
 }
